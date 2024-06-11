@@ -14,4 +14,14 @@ Attack and decode the message:
 
 python hastad.py cipher.txt plaintext.txt
 
+In ubuntu
 
+Example:
+
+python3 generate(n,e).py gen.txt -e 3
+
+python3 cipher(n,e,c).py gen.txt cipher.txt -e 3 -p "Test Hastad's Broadcast Attack"
+
+python3 hastad.py cipher.txt plaintext.txt 
+
+cat plaintext.txt (check it if it's your plaintext)
